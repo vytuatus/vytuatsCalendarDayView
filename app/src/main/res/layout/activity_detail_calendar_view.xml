@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView_bands_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kormoranai"
+        android:padding="16dp"/>
+    <View
+        android:id="@+id/devider_time"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorDivider"/>
+    <TextView
+        android:id="@+id/textView_select_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Select Event Time"/>
+    <TextView
+        android:id="@+id/textView_date_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="17 July, 2017"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textView_start_time"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:padding="8dp"
+            android:onClick="showTimePickerDialog"
+            android:text="16:00"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/textView_end_time"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="17:00"
+            />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="time_00_tag">0</integer>
+    <integer name="time_01_tag">1</integer>
+    <integer name="time_02_tag">2</integer>
+    <integer name="time_03_tag">3</integer>
+    <integer name="time_04_tag">4</integer>
+    <integer name="time_05_tag">5</integer>
+    <integer name="time_06_tag">6</integer>
+    <integer name="time_07_tag">7</integer>
+    <integer name="time_08_tag">8</integer>
+    <integer name="time_09_tag">9</integer>
+    <integer name="time_10_tag">10</integer>
+    <integer name="time_11_tag">11</integer>
+    <integer name="time_12_tag">12</integer>
+    <integer name="time_13_tag">13</integer>
+    <integer name="time_14_tag">14</integer>
+    <integer name="time_15_tag">15</integer>
+    <integer name="time_16_tag">16</integer>
+    <integer name="time_17_tag">17</integer>
+    <integer name="time_18_tag">18</integer>
+    <integer name="time_19_tag">19</integer>
+    <integer name="time_20_tag">20</integer>
+    <integer name="time_21_tag">21</integer>
+    <integer name="time_22_tag">22</integer>
+    <integer name="time_23_tag">23</integer>
+    <integer name="time_24_tag">24</integer>
+
+</resources>
